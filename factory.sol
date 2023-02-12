@@ -13,7 +13,7 @@ contract Factory{
 
     }
     function SimpleStore(uint256 _Index ,uint _Number) public {
-simpleArray[_Index].store(_Number);
+            simpleArray[_Index].store(_Number);
     }
     function getNumber(uint _Index) public view returns (uint256){
         return simpleArray[_Index].retrive();
